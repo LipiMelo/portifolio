@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: roboto;
+	background-color: #090909;
+}
+
+
+body {
+	background: url(bg.jpg);
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-left: 1rem;
+	padding-right: 1rem;
+
+}
+
+.container {
+	text-align: left;
+	background: #090909;
+	padding: 0 40px;
+	margin: 10px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 4em;
+	transition: 0.3s;
+}
+
+h1:hover {
+	font-size: 4.3em;
+	transition: 0.8s;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	font-size: 3em;
+}
+
+.remetente {
+	display: block;
+}
+
+label {
+	color: white;
+}
+
+input {
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+	border-color: black;
+	width: 100%;
+	padding: 8px 0;
+	margin: 8px 0;
+	background: #505050;
+}
+
+input:hover {
+	border-radius: 10px;
+	color: white;
+	border-color: #252525;
+	box-shadow: 0 0 0 2px #252525;
+	transition: 0.3s;
+}
+
+#mensage {
+	height: 100px;
+	min-height: 10em;
+	resize: vertical;
+	outline: none;
+	
+}
+
+button {
+	width: 25%;
+	margin: 0 0 25px 0;
+	border-radius: 30px;
+	background: #909090;
+	transition: 0.3s;
+}
+
+button:hover {
+	background: #505050;
+	font-size: 16px;
+	transition: 0.3s;
+}
+
+

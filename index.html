@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+        
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Mini portfolio website - Luis Felipe Rodrigues</title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="profile container">
+            <!-- Theme button -->
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+            <div class="profile__container grid">
+                <div class="profile__data">
+                    <div class="profile__border">
+                        <div class="profile__perfil">
+                            <!-- Insert your image, according to the example size of the portfolio -->
+                            <img src="assets/img/perfil.png" alt="">
+                        </div>
+                    </div>
+
+                    <h2 class="profile__name">Luis Felipe</h2>
+                    <h3 class="profile__profession">Web developer</h3>
+
+                    <ul class="profile__social">
+                        <a href="https://instagram.com/dixx_lipix?igshid=YmMyMTA2M2Y=" target="_blank" class="profile__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/luis-felipe-undefined-2b808a237" target="_blank" class="profile__social-link">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+                        <a href="https://github.com/LipiMelo" target="_blank" class="profile__social-link">
+                            <i class="ri-github-line"></i>
+                        </a>
+                    </ul>
+                </div>
+
+                <div class="profile__info grid">
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">5</h3>
+                        <p class="profile__info-description">
+                            mounth of <br> work
+                        </p>
+                    </div>
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">+10</h3>
+                        <p class="profile__info-description">
+                            Completed <br> projects
+                        </p>
+                    </div>
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">3</h3>
+                        <p class="profile__info-description">Satisfied <br> customers</p>
+                    </div>
+                </div>
+
+                <div class="profile__buttons">
+                    <!-- Insert your CV -->
+                    <a download="" href="curriculo_LuisFelipe.pdf" class="button">
+                        Download CV <i class="ri-download-line"></i>
+                    </a>
+
+                    <div class="profile__buttons-small">
+                        <!-- Insert a real number plus country code -->
+                        <a href="https://api.whatsapp.com/send?phone=67991763769&text=Olá, visitei seu portfólio e gostaria de mais informações." target="_blank" class="button button__small button__gray">
+                            <i class="ri-whatsapp-line"></i>
+                        </a>
+                        <!-- Insert your brand name or profile -->
+                        <a href="https://m.me/LipiMelo063" target="_blank" class="button button__small button__gray">
+                            <i class="ri-messenger-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <section class="filters container">
+                <!--=============== FILTERS TABS ===============-->
+                <div class="biografia">
+                    <h3><br/>Olá, me chamo Luis Felipe</h3>
+                    <h4>Tenho 18 anos e sou um desenvolvedor Frontend e Backend, atualmente estou estagiando na empresa Infortech Tecnologia - Campo Grande, MS e cursando a formação de Analise e desenvolvimento de sistemas na faculdade Insted.</h4>
+                </div>
+
+                <ul class="filters__content">
+                    <button class="filters__button filter-tab-active" data-target="#projects">
+                        Projetos
+                    </button>
+                    <button class="filters__button" data-target="#skills">
+                        Habilidades
+                    </button>
+                </ul>
+
+                <div class="filters__sections">
+                    <!--=============== PROJECTS ===============-->
+
+                    <div class="projects__content grid filters__active" data-content id="projects">
+                        <article class="projects__card">
+                            <!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
+                            <img src="assets/img/project1.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Web</span>
+                                    <h3 class="projects__title">Alura extra site</h3>
+                                    <a href="file:///C:/Users/lfrei/OneDrive/%C3%81rea%20de%20Trabalho/LuisFelipe%20Curso%20Alura/Portf%C3%B3lio1/responsive-mini-portfolio-main/Alura%20extra/principal.html" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project2.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Web</span>
+                                    <h3 class="projects__title">Wolf letter site</h3>
+                                    <a href="file:///C:/Users/lfrei/OneDrive/%C3%81rea%20de%20Trabalho/LuisFelipe%20Curso%20Alura/Portf%C3%B3lio1/responsive-mini-portfolio-main/Envi%20de%20Carta%20test/Dark%20letter.html" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project3.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Game</span>
+                                    <h3 class="projects__title">Atravessa MoMo</h3>
+                                    <a href="https://editor.p5js.org/LipiMelo/sketches/I6Vtuqjhw" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project4.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Game</span>
+                                    <h3 class="projects__title">Ping-Pong 2Player</h3>
+                                    <a href="https://editor.p5js.org/LipiMelo/sketches/_wTXMLyQP" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project5.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Design</span>
+                                    <h3 class="projects__title">Music app design</h3>
+                                    <a href="#" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!--=============== SKILLS ===============-->
+                    <div class="skills__content grid" data-content id="skills">
+
+                        <div class="skills__area">
+                            <h3 class="skills__title">Frontend Developer</h3>
+
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills__name">HTML</h3>
+                                            <span class="skills__level">basico</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills__name">CSS</h3>
+                                            <span class="skills__level">basico</span>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="skills__group">
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills__name">JavaScript</h3>
+                                            <span class="skills__level">Iniciante</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills__name">Git</h3>
+                                            <span class="skills__level">Iniciante</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__area">
+                            <h3 class="skills__title">Backend Developer</h3>
+
+                            <div class="skills__box">
+                                <div class="skills__group">
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills__name">C</h3>
+                                            <span class="skills__level">Iniciante</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills__name">C++</h3>
+                                            <span class="skills__level">Basico</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills__name">Python</h3>
+                                            <span class="skills__level">Iniciante</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <!--=============Contatos e informações===========-->
+
+                        <div class="skill__area">
+                            <section class="contact" id="contact">
+                                <div class="max-width">
+                                    <h3 class="title">informações </h3>
+                                    <div class="contact-content">
+                                        <div class="icons">
+                                            <div class="row">
+                                                <ion-icon name="person-outline"></ion-icon>
+                                                <div class="info">
+                                                    <div class="head"><br /<br />Nome</div>
+                                                    <div class="sub-title">Luis Felipe<br><br></div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <ion-icon name="earth-outline"></ion-icon>
+                                                <div class="info">
+                                                    <div class="head">Endereço</div>
+                                                    <div class="sub-title">Campo Grande, MS <br><br></div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <ion-icon name="logo-google"></ion-icon>
+                                                <div class="info">
+                                                    <div class="head">Email</div>
+                                                    <div class="sub-title">llipimelo063@gmail.com</div>
+                                                </div>
+                                            </div>
+
+                                        </div><!--column left-->
+
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+
+
+
+                        <!--==================== ENVIO CONTATO =============-->
+
+
+                        <div class="skill__area">
+                            <div class="contato_envio">
+
+                                <form action="mailto:llipimelo063@gmail.com" method="post" enctype="text/plain">
+                                    <h3 class="title" style="text-align:center;">Entre em Contato<br /></h3>
+                                    <br /><p>Seu Nome   :</p>
+                                    <input class="caixa_texto1" none="nome" type="text" required /><br />
+                                    <p>Seu E-mail :</p>
+                                    <input class="caixa_texto2" none="email" type="email" required /><br />
+                                    <p style="margin:0px 195px 0px 0px">Mensagem:</p><br />
+                                    <textarea nome="mensagem" row="5" required></textarea><br />
+
+                                    <input class="envios1" type="submit" value="Enviar" />
+                                    <input class="envios2" type="reset" value="Limpar" />
+
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer container">
+            <span class="footer__copy">
+                &#169; <a href="#" style="color:#C4BABA">Luis Felipe</a> | Todos os direitos reservados - 2022
+            </span>
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
